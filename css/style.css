@@ -1,0 +1,196 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  min-width: 1200px;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.flex {
+  display: flex;
+}
+
+.list-reset {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+/* header */
+
+.header {
+  padding: 30px 0 0;
+}
+
+.header-container {
+  flex-direction: column;
+}
+
+.main-container {
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+.heder-logo-link {
+  margin-right: 40px;
+}
+
+.header-address {
+  margin-right: auto;
+  font-style: normal;
+}
+
+.header-nav-container {
+  padding: 14px 0;
+  align-items: center;
+}
+
+.header-list {
+  align-items: center;
+}
+
+.header-item:not(:last-child) {
+  margin-right: 45px;
+}
+
+.header-btn:not(:last-child) {
+  margin-right: 40px;
+}
+
+.header-nav {
+  margin-right: auto;
+}
+
+.section {
+  padding: 70px 0;
+}
+
+.section-title {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+/* special-offers */
+
+.special-offers-list {
+  flex-wrap: wrap;
+
+}
+
+.special-offers-item {
+  margin-bottom: 24px;
+  width: 573px;
+}
+
+.special-offers-item:not(:nth-child(2n)) {
+  margin-right: 24px;
+}
+
+.special-offers-item-title {
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+/* about-us */
+
+.about-us-descr {
+  margin: 0;
+  width: 888px;
+}
+
+/* services */
+
+.services-list {
+  flex-wrap: wrap;
+}
+
+.services-item {
+  margin-bottom: 24px;
+  width: 573px;
+}
+
+.services-item:not(:nth-child(2n)) {
+  margin-right: 24px;
+}
+
+.services-item-title {
+  margin: 0;
+}
+
+.services-item-link {
+  display: inline-flex;
+  margin-bottom: 5px;
+}
+
+.services-item-descr {
+  margin: 0;
+}
+
+/* advantages */
+
+.advantages-list {
+  flex-wrap: wrap;
+}
+
+.advantages-item {
+  margin-bottom: 22px;
+  width: 276px;
+}
+
+.advantages-item:not(:nth-child(4n)) {
+  margin-right: 22px;
+}
+
+.advantages-item-descr {
+  margin: 0;
+}
+
+/* placement */
+
+.placement-list {
+  flex-wrap: wrap;
+}
+
+.placement-item {
+  margin-bottom: 24px;
+  width: 374px;
+}
+
+.placement-item:not(:nth-child(3n)) {
+  margin-right: 24px;
+}
+
+.placement-item-price {
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.hotel-name {
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.hotel-location {
+  margin: 0;
+  margin-bottom: 20px;
+}
