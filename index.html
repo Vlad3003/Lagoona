@@ -228,7 +228,8 @@
               <div class="placement-wrap">
                 <div class="placement-wrapper flex">
                   <p class="placement-item-price">
-                    <span class="price-from">от</span>&nbsp;<span class="hotel-price">4&nbsp;698</span>&nbsp;<span class="price-night">/ ночь</span>
+                    <span class="price-from">от</span>&nbsp;<span class="hotel-price">4&nbsp;698</span>&nbsp;<span
+                      class="price-night">/ ночь</span>
                   </p>
 
                   <ul class="hotel-rating-list flex list-reset">
@@ -270,7 +271,8 @@
               <div class="placement-wrap">
                 <div class="placement-wrapper flex">
                   <p class="placement-item-price">
-                    <span class="price-from">от</span>&nbsp;<span class="hotel-price">5&nbsp;148</span>&nbsp;<span class="price-night">/ ночь</span>
+                    <span class="price-from">от</span>&nbsp;<span class="hotel-price">5&nbsp;148</span>&nbsp;<span
+                      class="price-night">/ ночь</span>
                   </p>
 
                   <ul class="hotel-rating-list flex list-reset">
@@ -312,7 +314,8 @@
               <div class="placement-wrap">
                 <div class="placement-wrapper flex">
                   <p class="placement-item-price">
-                    <span class="price-from">от</span>&nbsp;<span class="hotel-price">6&nbsp;254</span>&nbsp;<span class="price-night">/ ночь</span>
+                    <span class="price-from">от</span>&nbsp;<span class="hotel-price">6&nbsp;254</span>&nbsp;<span
+                      class="price-night">/ ночь</span>
                   </p>
 
                   <ul class="hotel-rating-list flex list-reset">
@@ -354,7 +357,8 @@
               <div class="placement-wrap">
                 <div class="placement-wrapper flex">
                   <p class="placement-item-price">
-                    <span class="price-from">от</span>&nbsp;<span class="hotel-price">6&nbsp;320</span>&nbsp;<span class="price-night">/ ночь</span>
+                    <span class="price-from">от</span>&nbsp;<span class="hotel-price">6&nbsp;320</span>&nbsp;<span
+                      class="price-night">/ ночь</span>
                   </p>
 
                   <ul class="hotel-rating-list flex list-reset">
@@ -396,7 +400,8 @@
               <div class="placement-wrap">
                 <div class="placement-wrapper flex">
                   <p class="placement-item-price">
-                    <span class="price-from">от</span>&nbsp;<span class="hotel-price">6&nbsp;457</span>&nbsp;<span class="price-night">/ ночь</span>
+                    <span class="price-from">от</span>&nbsp;<span class="hotel-price">6&nbsp;457</span>&nbsp;<span
+                      class="price-night">/ ночь</span>
                   </p>
 
                   <ul class="hotel-rating-list flex list-reset">
@@ -438,7 +443,8 @@
               <div class="placement-wrap">
                 <div class="placement-wrapper flex">
                   <p class="placement-item-price">
-                    <span class="price-from">от</span>&nbsp;<span class="hotel-price">6&nbsp;320</span>&nbsp;<span class="price-night">/ ночь</span>
+                    <span class="price-from">от</span>&nbsp;<span class="hotel-price">6&nbsp;320</span>&nbsp;<span
+                      class="price-night">/ ночь</span>
                   </p>
 
                   <ul class="hotel-rating-list flex list-reset">
@@ -480,7 +486,8 @@
               <div class="placement-wrap">
                 <div class="placement-wrapper flex">
                   <p class="placement-item-price">
-                    <span class="price-from">от</span>&nbsp;<span class="hotel-price">6&nbsp;505</span>&nbsp;<span class="price-night">/ ночь</span>
+                    <span class="price-from">от</span>&nbsp;<span class="hotel-price">6&nbsp;505</span>&nbsp;<span
+                      class="price-night">/ ночь</span>
                   </p>
 
                   <ul class="hotel-rating-list flex list-reset">
@@ -522,7 +529,8 @@
               <div class="placement-wrap">
                 <div class="placement-wrapper flex">
                   <p class="placement-item-price">
-                    <span class="price-from">от</span>&nbsp;<span class="hotel-price">6&nbsp;824</span>&nbsp;<span class="price-night">/ ночь</span>
+                    <span class="price-from">от</span>&nbsp;<span class="hotel-price">6&nbsp;824</span>&nbsp;<span
+                      class="price-night">/ ночь</span>
                   </p>
 
                   <ul class="hotel-rating-list flex list-reset">
@@ -563,7 +571,186 @@
         </ul>
       </div>
     </section>
+
+    <section class="tour">
+      <div class="container tour-container">
+        <h2 class="section-title tour-title">Хочу тур</h2>
+
+        <form action="https://jsonplaceholder.typicode.com/posts" method="post" class="tour-form">
+          <ul class="tour-list list-reset flex">
+            <li class="tour-item">
+              <label class="tour-item-descr" for="departure-city">Город вылета</label>
+
+              <select class="tour-select" name="departure-city" id="departure-city">
+                <option value="Санкт-Петербург" selected>Санкт-Петербург</option>
+                <option value="Москва">Москва</option>
+                <option value="Тула">Тула</option>
+                <option value="Воронеж">Воронеж</option>
+                <option value="Сочи">Сочи</option>
+                <option value="Тверь">Тверь</option>
+                <option value="Подольск">Подольск</option>
+              </select>
+            </li>
+
+            <li class="tour-item">
+              <label class="tour-item-descr" for="country">Страна</label>
+
+              <select class="tour-select" name="country" id="country">
+                <option value="Австралия" selected>Австралия</option>
+                <option value="Россия">Россия</option>
+                <option value="Турция">Турция</option>
+                <option value="Афганистан">Афганистан</option>
+                <option value="Узбекистан">Узбекистан</option>
+                <option value="Таджикистан">Таджикистан</option>
+              </select>
+            </li>
+
+            <li class="tour-item">
+              <label class="tour-item-descr" for="arrival-date">Дата прибытия</label>
+
+              <input class="tour-input" type="date" name="arrival-date" id="arrival-date" value="2021-10-18">
+
+            </li>
+
+            <li class="tour-item">
+              <label class="tour-item-descr" for="nights">Ночей</label>
+
+              <input class="tour-input tour-input-num" type="number" min="1" name="nights" id="nights" value="6">
+
+            </li>
+
+            <li class="tour-item">
+              <label class="tour-item-descr" for="tourists">Туристы</label>
+
+              <input class="tour-input tour-input-num" type="number" min="1" name="tourists" id="tourists" value="2" required>
+            </li>
+
+            <li class="tour-item">
+              <button type="submit" class="btn tour-btn">Найти</button>
+            </li>
+          </ul>
+        </form>
+      </div>
+    </section>
+
+    <section class="section contacts">
+      <div class="container">
+        <h2 class="section-title">Контакты</h2>
+
+        <div class="contacts-container flex">
+          <div class="contacts-left">
+            <address class="contacts-address">
+              <ul class="contacts-list list-reset">
+                <li class="contacts-item flex">
+                  <div class="contacts-item-left">
+                    <strong class="contacts-item-title">Адрес</strong>
+                  </div>
+
+                  <div class="contacts-item-right">
+                    <p class="contacts-item-descr">
+                      Москва, улица Юности,<br> дом 5&nbsp;строение&nbsp;4, офис&nbsp;2
+                    </p>
+                  </div>
+                </li>
+
+                <li class="contacts-item flex">
+                  <div class="contacts-item-left">
+                    <strong class="contacts-item-title">Телефоны</strong>
+                  </div>
+
+                  <div class="contacts-item-right">
+                    <a href="tel:+74995356434" class="contacts-item-link">+7 499 535-64-34</a>
+                    <a href="tel:+74950050544" class="contacts-item-link">+7 495 005-05-44</a>
+                  </div>
+                </li>
+
+                <li class="contacts-item flex">
+                  <div class="contacts-item-left">
+                    <strong class="contacts-item-title">Email</strong>
+                  </div>
+
+                  <div class="contacts-item-right">
+                    <a href="mailto:lg.oona@mail.ru" class="contacts-item-link">lg.oona@mail.ru</a>
+                    <p class="contacts-link-info">по вопросам бронирования</p>
+                    <a href="mailto:hotels.ln@mail.ru" class="contacts-item-link">hotels.ln@mail.ru</a>
+                    <p class="contacts-link-info">по вопросам сотрудничества</p>
+                  </div>
+                </li>
+
+                <li class="contacts-item flex">
+                  <div class="contacts-item-left">
+                    <strong class="contacts-item-title">График</strong>
+                  </div>
+
+                  <div class="contacts-item-right">
+                    <p class="contacts-item-descr">
+                      Понедельник-пятница,<br> с&nbsp;10:00 до&nbsp;19:00
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </address>
+
+            <button class="btn contacts-btn">Построить маршрут</button>
+          </div>
+
+          <img class="contacts-img" src="img/reception.jpg" alt="Ресепшн">
+        </div>
+
+      </div>
+
+    </section>
   </main>
+
+  <footer class="footer">
+    <div class="container footer-container flex">
+      <div class="footer-left">
+        <p class="footer-text footer-copy">
+          &copy;&nbsp;2012&ndash;2020 Управляющая компания Объединённой сети &laquo;Лагуна Хотелс&raquo;
+        </p>
+
+        <p class="footer-text footer-descr">
+          Представленная на&nbsp;сайте информация носит справочный характер и&nbsp;не&nbsp;является публичной офертой
+        </p>
+
+        <a href="#" class="footer-link">Пользовательское соглашение</a>
+      </div>
+
+      <address class="footer-address">
+        <ul class="footer-address-list list-reset">
+          <li class="footer-address-item">
+            <p class="footer-text">
+              11710, улица Юности, дом 5&nbsp;строение&nbsp;4, офис&nbsp;2
+            </p>
+          </li>
+
+          <li class="footer-address-item">
+            <a href="tel:+74995356434" class="footer-link">+7 499 535-64-34</a>
+            <a href="tel:+74950050544" class="footer-link">+7 495 005-05-44</a>
+          </li>
+
+          <li class="footer-address-item">
+            <a href="mailto:lg.oona@mail.ru" class="footer-link">lg.oona@mail.ru</a>
+            <a href="mailto:hotels.ln@mail.ru" class="footer-link">hotels.ln@mail.ru</a>
+          </li>
+        </ul>
+      </address>
+
+      <ul class="footer-list list-reset">
+        <li class="footer-item">
+          <a href="#" class="footer-item-link link-eyes"></a>
+        </li>
+        <li class="footer-item">
+          <a href="#" class="footer-item-link link-ok"></a>
+        </li>
+        <li class="footer-item">
+          <a href="#" class="footer-item-link link-vk"></a>
+        </li>
+      </ul>
+
+
+    </div>
+  </footer>
 </body>
 
 </html>
