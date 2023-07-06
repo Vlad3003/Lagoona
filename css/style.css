@@ -54,9 +54,8 @@ a {
 }
 
 .container {
-  padding: 0 15px;
   margin: 0 auto;
-  width: 1200px;
+  width: 1170px;
 }
 
 .flex {
@@ -480,13 +479,19 @@ a {
   color: #000;
 }
 
+.tour-item:not(:last-child) {
+  margin-right: 41px;
+}
+
 .tour-select {
+  max-width: 169px;
   border: none;
   font-size: 16px;
   color: #000;
 }
 
 .tour-input {
+  max-width: 121px;
   border: none;
   font-size: 16px;
   color: #000;
@@ -497,6 +502,7 @@ a {
 }
 
 .tour-btn {
+  margin-left: 10px;
   padding: 13px 30px;
 }
 
