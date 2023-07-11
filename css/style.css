@@ -895,18 +895,6 @@ a {
   fill: var(--brown-color);
 }
 
-/* .link-eyes {
-  background-image: url("../img/eyes.svg");
-}
-
-.link-ok {
-  background-image: url("../img/ok.svg");
-}
-
-.link-vk {
-  background-image: url("../img/vk.svg");
-} */
-
 .footer__item:not(:last-child) {
   margin-bottom: 20px;
 }
